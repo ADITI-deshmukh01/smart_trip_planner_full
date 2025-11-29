@@ -1,0 +1,15 @@
+{
+  "demo_user": {
+    "last_prefs": {
+      "travel_style": "Relaxed"
+    },
+    "last_trip": {
+      "destination": "nagpur",
+      "start_date": "2025-11-27",
+      "days": 5,
+      "persons": 1,
+      "travel_style": "Relaxed",
+      "daily_budget": 120
+    }
+  }
+}
