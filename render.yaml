@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: smart-trip-planner
@@ -9,3 +10,16 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.10
+=======
+services:
+  - type: web
+    name: smart-trip-planner
+    runtime: python
+    region: singapore
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+>>>>>>> 6ac8183e8799dc544ab399eef6d4f9db01a7f9dc
